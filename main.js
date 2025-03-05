@@ -58,7 +58,7 @@ const betterJWTTag = {
     {
       type: "string",
       defaultValue: "{}",
-      displayName: "payload",
+      displayName: "Payload",
       description: "The payload to encode",
       placeholder: '{"sub": "1234", "userId": "user_1234"}',
     },
