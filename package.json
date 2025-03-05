@@ -1,0 +1,37 @@
+{
+  "name": "insomnia-plugin-better-jwt",
+  "version": "1.0.0",
+  "private": false,
+  "main": "main.js",
+  "license": "MIT",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "jwt",
+    "better"
+  ],
+  "author": {
+    "name": "Manan",
+    "email": "manan.yadav02@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentix02/insomnia-plugin-better-jwt.git"
+  },
+  "insomnia": {
+    "name": "better-jwt",
+    "displayName": "Better JWT",
+    "description": "Generate JWT tokens with ease inside Insomnia",
+    "images": {
+      "icon": "npm/content/jwt.svg"
+    },
+    "publisher": {
+      "name": "Manan",
+      "email": "manan.yadav02@gmail.com"
+    },
+    "unlisted": false
+  },
+  "dependencies": {
+    "jwt-simple": "^0.5.6"
+  }
+}
